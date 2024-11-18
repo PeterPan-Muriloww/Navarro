@@ -81,17 +81,20 @@ header {
     justify-content: center;
     align-items: center;
 }
-.menu-item {
+
+.menu-item a{
+    text-decoration: none;
     margin: 0 15px;
     cursor: pointer;
     color: #ff69b4;
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 /*-----Produtos-----*/
 h1 {
     text-align: center;
     color: #333;
+    
 }
 
 .product-container {
